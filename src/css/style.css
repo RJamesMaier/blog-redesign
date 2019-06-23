@@ -1,0 +1,176 @@
+body {
+    font-family: sans-serif;
+    margin: 2px;
+}
+
+/*topnav styling*/
+.nav-bar{
+    overflow: hidden;
+    background-color: #004367;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.blog-logo {
+    float: left;
+    font-size: 25px;
+}
+
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 12px 14px;
+    margin-right: 5px;
+}
+
+/*blog-feed*/
+.blog-feed {
+    display: flex;
+    margin: 10px 170px;
+}
+
+.article {
+    max-width: 45%;
+    margin-left: 10px;
+    padding: 5px 12px;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 3px -3px lightgrey;
+
+}
+
+.article-meta h2{
+    text-decoration: none;
+    color: black;
+}
+
+.article .rdm-btn {
+    border: 2px solid #004367;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border-radius: 4px;
+}
+
+.article .rdm-btn:hover {
+    text-decoration: underline;
+    background-color: #004367;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.article:hover {
+    box-shadow: 0 10px 6px -6px lightgrey;
+}
+
+.section-title {
+    text-align: center;
+    margin: 0px;
+}
+
+.section-title h1 {
+    display: inline-block;
+}
+
+/*second section*/
+.second-window-container {
+    display: flex;
+    margin: 10px 70px;
+    text-align: center;
+}
+
+.card-container {
+    padding: 8px 12px;
+    margin-left: 5px;
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 30%;
+}
+
+.card-container {
+    box-shadow: 0 5px 3px -3px lightgrey;
+}
+
+.card-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-container a:hover {
+    color: #004367;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+.card-container a i{
+    font-size: 24px;
+}
+
+/*section breaks*/
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*social media*/
+.social-container {
+    display: flex;
+    margin: 10px 70px;
+    text-align: center;
+}
+
+.social-media {
+    background-color: whitesmoke;
+    padding: 8px 12px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 25%;
+    box-shadow: 0 5px 3px -3px lightgrey;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-media a i {
+    font-size: 30px;
+}
+
+/*Footer*/
+footer {
+    overflow: hidden;
+    background-color: #004367;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    padding: 5px;
+    text-align: center;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.footer-copyright h6 {
+    color:white;
+}
