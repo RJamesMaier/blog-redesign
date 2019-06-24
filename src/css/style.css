@@ -28,6 +28,11 @@ body {
     margin-right: 5px;
 }
 
+.nav-bar ul li a:hover {
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
 /*blog-feed*/
 .blog-feed {
     display: flex;
@@ -40,7 +45,6 @@ body {
     padding: 5px 12px;
     background-color: whitesmoke;
     box-shadow: 0 5px 3px -3px lightgrey;
-
 }
 
 img {
@@ -48,9 +52,9 @@ img {
     height: auto;
 }
 
-.article-meta h2{
+.article-meta a {
     text-decoration: none;
-    color: black;
+    color: #004367;
 }
 
 .article .rdm-btn {
@@ -76,10 +80,15 @@ img {
 .section-title {
     text-align: center;
     margin: 0px;
+    color: #004367;
 }
 
 .section-title h1 {
     display: inline-block;
+}
+
+.section-title hr {
+    margin: 0px 400px;
 }
 
 /*second section*/
@@ -120,6 +129,8 @@ img {
 hr {
     margin-left: 50px;
     margin-right: 50px;
+    height: 2px;
+    background-color: #004367;
 }
 
 /*social media*/
@@ -145,6 +156,12 @@ hr {
 
 .social-media a i {
     font-size: 30px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+    color: #004367;
+    transition: 0.4s;
 }
 
 /*Footer*/
