@@ -2,8 +2,10 @@
 
 A frontend project created using html and css.
 
-Putting all together what the frontend lessons had tuaght me.
+Putting all together different frontend lessons.
 
-# What I learnde
-* Layouting Web Pages
-* Flexbox styling
+# What I learned
+* Creating a web design using html and css
+* Layouting Web Pages using flexbox
+* using class-selectors and id-sectors
+
